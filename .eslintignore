@@ -1,0 +1,10 @@
+node_modules
+out
+dist
+types
+app/graphql/generated.tsx
+*.d.ts
+*.graphql
+public
+next.config.js
+server.js

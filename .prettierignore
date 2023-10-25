@@ -1,0 +1,13 @@
+*.yml
+node_modules
+*.json
+*.html
+*.md
+*.graphql
+.prettierrc
+.prettierignore
+*.less
+*.scss
+out
+dist
+graphql/generated.tsx
