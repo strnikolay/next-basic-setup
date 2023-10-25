@@ -1,0 +1,7 @@
+{
+  "bin": "main.go",
+  "name": "next-basic-setup",
+  "author": "Strelnikov Nikolay",
+  "version": "01.00.00",
+  "license": "UNLICENCED"
+}
