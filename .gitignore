@@ -2,8 +2,10 @@
 
 # dependencies
 /node_modules
+/temp
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
@@ -33,5 +35,3 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-
-app/components/chart/test.js
