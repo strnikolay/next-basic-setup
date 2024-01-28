@@ -2,6 +2,23 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
+
+  const res = await fetch('https://api.example.com/...')
+  // The return value is *not* serialized
+  // You can return Date, Map, Set, etc.
+ 
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error('Failed to fetch data')
+  }
+ 
+  return res.json()
+  }
+
+  const data = await getData()
+
+
+
   return (
     <main className={styles.main}>
       <div className={styles.description}>
