@@ -1,7 +1,7 @@
 'use client'
 
 import  React from 'react';
-import { Store } from "../store/store";
+import { Store } from "./store";
 
 /*interface State {
   Store: Store

@@ -30,7 +30,7 @@
         "./app/pages/*"
       ],
       "@/components/*": [
-        "./app/components/*"
+        "./src/components/*"
       ],
       "@/graphql/*": [
         "./app/graphql/*"
